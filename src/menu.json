@@ -1,0 +1,156 @@
+{
+    "Sencillos": [
+      {
+        "nombre": "Camarón Roll",
+        "precio": 100,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": ""
+      },
+      {
+        "nombre": "Surimi Roll",
+        "precio": 100,
+        "XD": "Pepino, zanahoria, phila y surimi",
+        "XF": ""
+      },
+      {
+        "nombre": "Black Nori Roll",
+        "precio": 100,
+        "XD": "Pepino, zanahoria, phila y surimi",
+        "XF": "Alga"
+      },
+      {
+        "nombre": "Phila Roll",
+        "precio": 150,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Phila"
+      },
+      {
+        "nombre": "Mary y Tierra",
+        "precio": 125,
+        "XD": "Pepino, zanahoria, phila, camarón y Res",
+        "XF": ""
+      },
+      {
+        "nombre": "Banana Roll",
+        "precio": 125,
+        "XD": "Plátano frito, phila y camarón",
+        "XF": ""
+      },
+      {
+        "nombre": "Carne Roll",
+        "precio": 150,
+        "XD": "Pepino, zanahoria, phila y res",
+        "XF": ""
+      },
+      {
+        "nombre": "Saja Roll",
+        "precio": 115,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Chipotle"
+      },
+      {
+        "nombre": "Tepiqueño Roll",
+        "precio": 115,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Tampico"
+      },
+      {
+        "nombre": "Anguila Roll",
+        "precio": 115,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Salsa de anguila"
+      },
+      {
+        "nombre": "Ibarahi Roll",
+        "precio": 115,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Salsa de anguila y chipotle"
+      },
+      {
+        "nombre": "Camarot especial",
+        "precio": 115,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Anguila y sriracha"
+      },
+      {
+        "nombre": "Especial Fukui Roll",
+        "precio": 125,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Tampico y surimi"
+      }
+    ],
+    "Especiales": [
+      {
+        "nombre": "Especial Nayasaki Roll",
+        "precio": 125,
+        "XD": "Pepino, zanahoria, phila y camarón, carne, queso y surimi",
+        "XF": "Tampico y chipotle"
+      },
+      {
+        "nombre": "Black Nori Especial",
+        "precio": 125,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Alga, phila y camarón y tampico"
+      },
+      {
+        "nombre": "Miami Roll",
+        "precio": 125,
+        "XD": "Pepino, zanahoria, phila, camarón y surimi",
+        "XF": "Chipotle"
+      },
+      {
+        "nombre": "Iava (volcán) Roll",
+        "precio": 115,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Surimi, piña y chipotle"
+      },
+      {
+        "nombre": "Cordon Blue",
+        "precio": 125,
+        "XD": "Pepino, zanahoria, phila y tocino",
+        "XF": "Queso fundido"
+      },
+      {
+        "nombre": "Palta Roll",
+        "precio": 115,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Aguacate y salsa anguila"
+      },
+      {
+        "nombre": "Castello Roll",
+        "precio": 120,
+        "XD": "Tampico, camarón empanizado, aguacate y salsa anguila",
+        "XF": ""
+      },
+      {
+        "nombre": "Ash Roll",
+        "precio": 125,
+        "XD": "Pate de marlin, aguacate, camarón y sriracha",
+        "XF": ""
+      },
+      {
+        "nombre": "Rena Roll",
+        "precio": 125,
+        "XD": "Pate de marlin, aguacate, camarón y sriracha",
+        "XF": ""
+      },
+      {
+        "nombre": "Xaas Roll",
+        "precio": 125,
+        "XD": "Pate de marlin, aguacate y sriracha",
+        "XF": ""
+      },
+      {
+        "nombre": "Chitaba Roll",
+        "precio": 120,
+        "XD": "Camarón dorado y toque de sriracha",
+        "XF": "Pepino, zanahoria y phila"
+      },
+      {
+        "nombre": "BBQ Roll",
+        "precio": 115,
+        "XD": "Pepino, zanahoria, phila y camarón",
+        "XF": "Salsa BBQ"
+      }
+    ]
+  }

@@ -70,6 +70,10 @@ const Navbar = () => {
       name: "Bebidas",
       url: "/bebidas",
     },
+    {
+      name: "Contacto",
+      url: "/contacto",
+    },
   ];
 
   const drawerList = () => (

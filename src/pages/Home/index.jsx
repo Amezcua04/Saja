@@ -44,7 +44,7 @@ const Home = () => {
           component="h1"
           fontWeight="bold"
           fontSize="12rem"
-          lineHeight={1.2}
+          lineHeight={1}
         >
           N Ú
         </Typography>

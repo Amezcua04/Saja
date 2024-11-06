@@ -1,35 +1,77 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import SplashScreen from "./components/SplashScreen";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { Box } from "@mui/material";
-import Home from "./pages/Home";
-import Bebidas from "./pages/Bebidas";
-import Makis from "./pages/Makis";
-import Especiales from "./pages/Especiales";
-import Bolas from "./pages/Bolas";
-import Entradas from "./pages/Entradas";
+import { Box, CircularProgress } from "@mui/material";
+const Home = lazy(() => import("./pages/Home"));
+const Makis = lazy(() => import("./pages/Makis"));
+const Especiales = lazy(() => import("./pages/Especiales"));
+const Bolas = lazy(() => import("./pages/Bolas"));
+const Entradas = lazy(() => import("./pages/Entradas"));
+const Bebidas = lazy(() => import("./pages/Bebidas"));
+const Contacto = lazy(() => import("./pages/Contacto"));
 
 function App() {
-  // const [showSplash, setShowSplash] = useState(true);
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setShowSplash(false);
-  //   }, 3000);
-  //   return () => clearTimeout(timer);
-  // }, []);
-
   return (
     <Box>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/makis" element={<Makis />} />
-        <Route path="/especiales" element={<Especiales />} />
-        <Route path="/bolasfuego" element={<Bolas />} />
-        <Route path="/entradas" element={<Entradas />} />
-        <Route path="/bebidas" element={<Bebidas />} />
+        <Route
+          path="/"
+          element={
+            <Suspense fallback={<CircularProgress color="red" />}>
+              <Home />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/makis"
+          element={
+            <Suspense fallback={<CircularProgress color="red" />}>
+              <Makis />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/especiales"
+          element={
+            <Suspense fallback={<CircularProgress color="red" />}>
+              <Especiales />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/bolasfuego"
+          element={
+            <Suspense fallback={<CircularProgress color="red" />}>
+              <Bolas />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/entradas"
+          element={
+            <Suspense fallback={<CircularProgress color="red" />}>
+              <Entradas />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/bebidas"
+          element={
+            <Suspense fallback={<CircularProgress color="red" />}>
+              <Bebidas />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/contacto"
+          element={
+            <Suspense fallback={<CircularProgress color="red" />}>
+              <Contacto />
+            </Suspense>
+          }
+        />
       </Routes>
     </Box>
   );

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Makis = () => {
-  return (
-    <div>Makis</div>
-  )
-}
+  return <div>Makis</div>;
+};
 
-export default Makis
+export default Makis;

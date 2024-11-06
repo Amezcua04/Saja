@@ -10,7 +10,7 @@ const Home = () => {
       {/* Logo de la parte superior */}
       <Box display="flex" justifyContent="center" sx={{ lineHeight: 0.5 }}>
         <Box
-          mt={{ xs: 5, sm: 20, lg: 4, xl: 4 }}
+          mt={{ xs: 0, sm: 10, lg: 4, xl: 4 }}
           width={{ xs: "50%", sm: "30%", lg: "20%", xl: "15%" }}
         >
           <img alt="Logo Saja" src={Logo} width="100%" height="100%" />

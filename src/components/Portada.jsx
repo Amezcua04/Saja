@@ -66,14 +66,14 @@ const Portada = ({ handleNextSection }) => {
               variant="body1"
               component="h4"
               fontWeight="bold"
-              fontSize="12px"
+              fontSize="10px"
             >
               SERVICIO A DOMICILIO
             </Typography>
             <Typography
               variant="body1"
               component="h5"
-              sx={{ fontWeight: "bold", fontSize: "20px", lineHeight: 0.9 }}
+              sx={{ fontWeight: "bold", fontSize: "14px", lineHeight: 0.9 }}
             >
               311 493 7670
             </Typography>

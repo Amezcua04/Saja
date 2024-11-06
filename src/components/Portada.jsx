@@ -73,7 +73,7 @@ const Portada = ({ handleNextSection }) => {
             <Typography
               variant="body1"
               component="h5"
-              sx={{ fontWeight: "bold", fontSize: "18px", lineHeight: 0.9 }}
+              sx={{ fontWeight: "bold", fontSize: "19px", lineHeight: 0.9 }}
             >
               311 493 7670
             </Typography>

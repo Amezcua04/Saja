@@ -20,3 +20,16 @@ body {
   display: block;
   position: relative;
 }
+
+.logoBox {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding: 0;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}

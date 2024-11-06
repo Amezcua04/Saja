@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from "react";
 import SplashScreen from "./components/SplashScreen";
-import Home from './pages/Home';
+import Home from "./pages/Home";
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -8,15 +8,11 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 10000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
-  return (
-    <div>
-      {showSplash ? <SplashScreen /> : <Home />}
-    </div>
-  )
+  return <>{showSplash ? <SplashScreen /> : <Home />}</>;
 }
 
-export default App
+export default App;

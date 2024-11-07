@@ -54,10 +54,10 @@ const Navbar = () => {
       name: "Makis",
       url: "/makis",
     },
-    {
-      name: "Especiales",
-      url: "/especiales",
-    },
+    // {
+    //   name: "Especiales",
+    //   url: "/especiales",
+    // },
     {
       name: "Bolas de Fuego",
       url: "/bolasfuego",

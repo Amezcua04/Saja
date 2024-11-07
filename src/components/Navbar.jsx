@@ -1,4 +1,4 @@
-import { Call, Login, Menu } from "@mui/icons-material";
+import { Call, Menu } from "@mui/icons-material";
 import {
   AppBar,
   Box,

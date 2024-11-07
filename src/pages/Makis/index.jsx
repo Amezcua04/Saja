@@ -171,52 +171,23 @@ const Makis = () => {
         alignItems: "center",
       }}
     >
-      {/* <Box
-        display="flex"
-        // width="100%"
-        flexDirection={{ xs: "column", lg: "row" }}
-        sx={{ textAlign: "center", marginBottom: 2 }}
-        border="1px solid red"
-      >
-        <Typography
-          variant="h2"
-          fontSize={{ lg: "76px" }}
-          sx={{ fontWeight: "bold" }}
-        >
-          MAKIS
-        </Typography>
-        <Box display="flex" flexDirection="row">
-          <Box>
-            <img src={img} width="60px" height="60px" alt="2x1 img" />
-          </Box>
-          <Box>
-            <Typography variant="h4" sx={{ fontWeight: "bold" }}>
-              EN SUSHI
-            </Typography>
-            <Typography variant="h6" lineHeight={0.5}>
-              TODOS LOS DÍAS
-            </Typography>
-          </Box>
-        </Box>
-      </Box> */}
-
       <Box sx={{ flex: 1 }}>
         <Grid container>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <Box
               display="flex"
-              flexDirection={{ xs: "column", lg: "row" }}
+              flexDirection={{ xs: "column", sm: "row" }}
               sx={{ textAlign: "center", marginBottom: 2 }}
             >
               <Typography
                 variant="h2"
-                fontSize={{ lg: "76px" }}
+                fontSize={{ sm: "76px" }}
                 sx={{ fontWeight: "bold" }}
               >
                 MAKIS
               </Typography>
               <Box
-                display={{ xs: "flex", lg: "none" }}
+                display={{ xs: "flex", sm: "none" }}
                 flexDirection="row"
                 alignItems="center"
                 justifyContent="center"
@@ -245,16 +216,16 @@ const Makis = () => {
             ))}
           </Grid>
 
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <Box
-              display={{ xs: "none", lg: "flex" }}
-              flexDirection={{ xs: "column", lg: "row" }}
+              display={{ xs: "none", sm: "flex" }}
+              flexDirection={{ xs: "column", sm: "row" }}
               sx={{ textAlign: "center" }}
             >
               <Typography
-                display={{ lg: "none" }}
+                display={{ sm: "none" }}
                 variant="h2"
-                fontSize={{ lg: "76px" }}
+                fontSize={{ sm: "76px" }}
                 sx={{ fontWeight: "bold" }}
               >
                 MAKIS

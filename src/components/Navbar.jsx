@@ -111,7 +111,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <AppBar color="transparent" sx={{ boxShadow: "none" }}>
+      <AppBar position="absolute" color="transparent" sx={{ boxShadow: "none" }}>
         <Toolbar>
           <Box display="flex" flexGrow={1}>
             {/* Logo a la izquierda */}
